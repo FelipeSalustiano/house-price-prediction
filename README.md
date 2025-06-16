@@ -53,5 +53,7 @@ Contém a etapa de construção e avaliação dos modelos preditivos, utilizando
 
 ## 🗄️ Base de Dados
 
-- Os dados utilizados neste projeto estão disponíveis publicamente no **[Kaggle](https://www.kaggle.com/datasets/juhibhojani/house-price)**.
+- Os dados utilizados neste projeto estão disponíveis publicamente no **Kaggle**.
+- Abaixo clique para acessar o projeto no kaggle:
+- **[🏠House Price](https://www.kaggle.com/datasets/juhibhojani/house-price)**
 
