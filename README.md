@@ -54,14 +54,13 @@ Desenvolver um modelo preditivo capaz de estimar o preço de imóveis com base e
   - Scikit-learn  
   - Seaborn  
   - Matplotlib  
-  - Optuna (para otimização de hiperparâmetros)  
 
 ---
 
 ## 📊 Resultados Esperados  
 
 - Identificação das variáveis que mais influenciam o preço dos imóveis.  
-- Criação de um modelo robusto e generalizável para previsão de preços.  
+- Criação de um modelo para previsão de preços.  
 - Geração de insights que possam auxiliar na tomada de decisões no mercado imobiliário.  
 
 ---
@@ -70,10 +69,8 @@ Desenvolver um modelo preditivo capaz de estimar o preço de imóveis com base e
 
 ```
 ├── notebook   # Notebook principal do projeto  
-├── README.md                      # Descrição geral do projeto  
-├── data/                          # Pasta com bases de dados utilizadas  
-├── models/                        # Modelos treinados e salvos  
-└── images/                        # Gráficos e visualizações geradas
+├── README.md                      # Descrição geral do projeto   
+├── model/                        # Modelos treinados e salvos  
 ```
 
 ---
