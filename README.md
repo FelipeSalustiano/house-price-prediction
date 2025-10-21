@@ -1,59 +1,80 @@
-# 🏠 House Price Prediction
+# 🏠 Predição de Preços de Imóveis  
 
-Este projeto tem como objetivo prever o preço de imóveis com base em atributos estruturados, como número de banheiros, andar, presença de varanda, entre outros. Utilizamos algoritmos de regressão, com destaque para o **XGBoost Regressor**, que apresentou excelente desempenho com um **R² superior a 0.87**.
+## 📘 Descrição do Projeto  
+O presente projeto tem como finalidade realizar uma análise exploratória e preditiva de uma base de dados referente aos preços de imóveis. O estudo busca compreender os principais fatores que influenciam o valor de mercado das propriedades e, a partir disso, desenvolver um modelo de aprendizado de máquina capaz de estimar preços futuros com base em variáveis explicativas relevantes.  
 
----
-
-## 🎯 Objetivos do Projeto
-
-- Identificar os principais fatores que influenciam o preço dos imóveis.
-- Aplicar algoritmos de regressão para realizar previsões de preço.
-- Comparar o desempenho entre diferentes modelos (Regressão Linear e XGBoost).
-- Avaliar os modelos por meio de métricas como **R²**, **MSE** e **RMSE**.
+Esse tipo de análise é amplamente utilizado em setores imobiliários, bancos e plataformas de anúncios, auxiliando na precificação mais assertiva e estratégica dos imóveis.  
 
 ---
 
-## 🧠 Tecnologias Utilizadas
+## 🎯 Objetivos  
 
-- **Python**
-- **Pandas**, **NumPy**
-- **Scikit-learn**
-- **LinearRegression**
-- **XGBoost**
-- **Matplotlib**, **Seaborn** (para visualizações)
-- **Jupyter Notebook**
+**Objetivo Geral:**  
+Desenvolver um modelo preditivo capaz de estimar o preço de imóveis com base em variáveis descritivas.  
 
----
-
-## 📁 Estrutura do Projeto
-
-### `house_prices_tratamento/`
-Contém a etapa de análise e pré-processamento dos dados. Aqui foram realizadas limpeza, tratamento e extração de features para facilitar a modelagem.
-
-- `House_prices_análise_e_tratamento.ipynb`: Notebook com a análise exploratória, tratamento de dados e preparação das features.
-- `house_prices_tratado.csv`: Arquivo CSV com os dados tratados e prontos para modelagem.
-
-### `house_prices_modelo/`
-Contém a etapa de construção e avaliação dos modelos preditivos, utilizando os dados tratados da etapa anterior.
-
-- `House_prices_model.ipynb`: Notebook com a construção dos modelos de Regressão Linear e XGBoost.
-- `House_prices_prediction_test.ipynb`: Notebook de teste com previsão de preço por m² de um imóvel fictício.
-- `XGBoost_model_prediction.pkl`: Arquivo `.pkl` com o modelo treinado utilizando o XGBoost.
+**Objetivos Específicos:**  
+- Realizar a coleta e o tratamento dos dados.  
+- Analisar estatisticamente as variáveis e suas correlações.  
+- Visualizar padrões e tendências nos preços dos imóveis.  
+- Testar diferentes modelos de aprendizado de máquina.  
+- Avaliar o desempenho dos modelos e selecionar o mais eficiente.  
 
 ---
 
-## ✅ Resultados
+## 🧠 Metodologia  
 
-- O modelo **XGBoost Regressor** obteve um desempenho superior em relação à regressão linear.
-- Métricas obtidas com o XGBoost:
-  - **R²:** > 0.87
-  - **MSE** e **RMSE** apresentaram bons valores, indicando baixa margem de erro nas previsões.
+1. **Coleta e preparação dos dados**  
+   - Importação e análise inicial da base de dados.  
+   - Tratamento de valores ausentes e inconsistências.  
+   - Codificação de variáveis categóricas.  
+   - Normalização e padronização dos dados.  
+
+2. **Análise Exploratória de Dados (EDA)**  
+   - Visualizações gráficas com *matplotlib* e *seaborn*.  
+   - Identificação de correlações entre variáveis.  
+   - Análise de distribuição dos preços e demais atributos.  
+
+3. **Modelagem Preditiva**  
+   - Separação dos dados em conjuntos de treino e teste.  
+   - Aplicação de algoritmos de regressão (ex: *Linear Regression*, *Random Forest*, *XGBoost*).  
+   - Ajuste de hiperparâmetros e comparação de métricas.  
+
+4. **Avaliação de Desempenho**  
+   - Métricas utilizadas: MAE, RMSE e R².  
+   - Interpretação dos resultados e escolha do melhor modelo.  
 
 ---
 
-## 🗄️ Base de Dados
+## 🧩 Tecnologias Utilizadas  
 
-- Os dados utilizados neste projeto estão disponíveis publicamente no **Kaggle**.
-- Abaixo clique para acessar o projeto no kaggle:
-- **[🏠House Price](https://www.kaggle.com/datasets/juhibhojani/house-price)**
+- **Linguagem:** Python  
+- **Bibliotecas:**  
+  - Pandas  
+  - NumPy  
+  - Scikit-learn  
+  - Seaborn  
+  - Matplotlib  
+  - Optuna (para otimização de hiperparâmetros)  
 
+---
+
+## 📊 Resultados Esperados  
+
+- Identificação das variáveis que mais influenciam o preço dos imóveis.  
+- Criação de um modelo robusto e generalizável para previsão de preços.  
+- Geração de insights que possam auxiliar na tomada de decisões no mercado imobiliário.  
+
+---
+
+## 📁 Estrutura do Projeto  
+
+```
+├── notebook   # Notebook principal do projeto  
+├── README.md                      # Descrição geral do projeto  
+├── data/                          # Pasta com bases de dados utilizadas  
+├── models/                        # Modelos treinados e salvos  
+└── images/                        # Gráficos e visualizações geradas
+```
+
+---
+### [LINK DA BASE DE DADOS](https://www.kaggle.com/datasets/juhibhojani/house-price)
