@@ -36,7 +36,7 @@ Desenvolver um modelo preditivo capaz de estimar o preço de imóveis com base e
 
 3. **Modelagem Preditiva**  
    - Separação dos dados em conjuntos de treino e teste.  
-   - Aplicação de algoritmos de regressão (ex: *Linear Regression*, *Random Forest*, *XGBoost*).  
+   - Aplicação de algoritmos de regressão (ex: *Linear Regression*, *Random Forest*, *Elastic Net*).  
    - Ajuste de hiperparâmetros e comparação de métricas.  
 
 4. **Avaliação de Desempenho**  
