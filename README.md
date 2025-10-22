@@ -68,9 +68,9 @@ Desenvolver um modelo preditivo capaz de estimar o preço de imóveis com base e
 ## 📁 Estrutura do Projeto  
 
 ```
-├── notebook   # Notebook principal do projeto  
-├── README.md                      # Descrição geral do projeto   
-├── model/                        # Modelos treinados e salvos  
+├── notebook          # Notebook principal do projeto  
+├── README.md         # Descrição geral do projeto   
+├── model/            # Modelos treinados e salvos  
 ```
 
 ---
